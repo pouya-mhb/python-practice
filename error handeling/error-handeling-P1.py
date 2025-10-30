@@ -39,3 +39,20 @@ finally :
     # will be run in any case
 
 '''
+
+
+def divis3(a,b):
+    try:
+        result =  a / b
+
+    except Exception as e :
+        print (f"Error Happend as {e}")
+        result = None
+
+    else :
+        print (result)
+
+    finally :
+        return result
+
+divis3(1,0)
